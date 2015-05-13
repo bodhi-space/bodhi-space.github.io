@@ -166,10 +166,11 @@ li {
 		display: none;
 		position: absolute;
 		padding: 0px;
-		background: #09C;
+		background: #FFF;
 		right: 20px;
 		top: 60px;
 		width: 45%;
+		z-index: 1;
 
 
 	}
