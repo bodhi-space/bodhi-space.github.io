@@ -164,7 +164,7 @@ li {
 	nav ul, nav:active ul { 
 
 		display: none;
-		position: absolute;
+		position: fixed;
 		padding: 0px;
 		background: #fff;
 		right: 20px;
@@ -236,6 +236,7 @@ section.hero {
 	overflow: hidden;
 	background-color: #FF9900;
 	padding-bottom: 20px;
+
 	
 }
 
