@@ -179,12 +179,12 @@ li {
 		display: block;
 		text-align: center;
 		width: 100%;
-		padding: 10px 0;
-		margin: 0;
+		padding: 0px;
+		margin: 0px;
 		border: 1px solid #f90;
 		font-family: "Raleway", sans-serif;
 		font-weight: 600;
-		font-size:30px
+		font-size:32px
 
 		
 
@@ -194,8 +194,7 @@ li {
 	nav:hover ul {
 
 		display: block;
-		font-family: "Raleway", sans-serif;
-		font-weight: 600;
+		
 		color:#ff9900;
 
 	}
