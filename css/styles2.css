@@ -181,6 +181,8 @@ li {
 		padding: 10px 0;
 		margin: 0;
 		border: 1px solid #f90;
+		position: relative;
+		z-index:1;
 
 		
 
@@ -236,6 +238,7 @@ section.hero {
 	overflow: hidden;
 	background-color: #FF9900;
 	padding-bottom: 20px;
+	
 
 	
 }
