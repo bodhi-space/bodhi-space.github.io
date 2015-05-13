@@ -297,13 +297,12 @@ section.hero h3 {
 }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 section.hero h1 {
 	font-size: 40px;
-	margin-top: 10px;
 }
 section.hero h3 {
-	font-size: 26px;
+	font-size: 32px;
 }
 }
 
@@ -473,7 +472,6 @@ section.platform {
 	padding-bottom: 30px;
 }
 section.platform p {
-	width: calc(100% - 40px);
 	clear: both;
 	color: #ffffff;
 	font-size: 21px;
@@ -530,7 +528,6 @@ section.mobile {
 	padding-bottom: 30px;
 }
 section.mobile p {
-	width: calc(100% - 40px);
 	clear: both;
 	color: #ffffff;
 	font-size: 21px;
@@ -586,7 +583,6 @@ section.agent {
 	padding-bottom: 30px;
 }
 section.agent p {
-	width: calc(100% - 40px);
 	clear: both;
 	color: #ffffff;
 	font-size: 21px;
@@ -648,7 +644,6 @@ section.four {
 	padding-bottom: 30px;
 }
 section.four p {
-	width: calc(100% - 40px);
 	clear: both;
 	color: #ffffff;
 	font-size: 32px;
@@ -693,7 +688,7 @@ section.four img.icon {
 
 @media screen and (max-width: 999px) {
 section.four p {
-	font-size: 32px;
+	font-size: 28px;
 }
 section.four p.large {
 	font-size: 40px;
