@@ -164,7 +164,7 @@ li {
 	nav ul, nav:active ul { 
 
 		display: none;
-		position: fixed;
+		position: relative;
 		padding: 0px;
 		background: #fff;
 		right: 20px;
