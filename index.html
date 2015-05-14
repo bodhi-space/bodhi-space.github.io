@@ -28,12 +28,12 @@
 
 <script type="text/javascript">
 $(function(){
-	$("#menu-icon").on("click hover",function(){
+	$("#menu-icon").on("hover click touchstart ",function(){
 		$("body").addClass("notouch");	
 	});
 	
-	$("nav li").on("click hover",function(){
-		$("body").removeClass("notouch");	
+	$("nav li").on("hover click ",function(){
+		$("body").removeClass("notouch touchstart");	
 	});
 });
 </script>
