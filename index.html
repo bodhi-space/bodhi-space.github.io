@@ -28,11 +28,11 @@
 
 <script type="text/javascript">
 $(function(){
-	$("#menu-icon").on("click",function(){
+	$("#menu-icon").on("hover",function(){
 		$("body").addClass("notouch");	
 	});
 	
-	$("nav li").on("click",function(){
+	$("*:not(#menu-icon), nav li").on("hover",function(){
 		$("body").removeClass("notouch");	
 	});
 });
