@@ -113,6 +113,15 @@ html, body {
 		background-color: #FAA21D;
 	}
 
+	.content .downloadhs {
+		height: 100px;
+		width: 295px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 10px;
+		background-color: #98c847;
+	}
+
 	.content .install img {
 		position: relative;
 		top: -2px;

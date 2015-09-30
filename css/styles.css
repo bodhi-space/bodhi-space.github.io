@@ -21,6 +21,12 @@ body {
 	background-color: #FAA21D;
 }
 
+.navbar-hs {
+	height: 75px;
+	background-color: #FFFFFF;
+}
+
+
 .navbar-bodhi .navbar-brand {
 	padding-top: 12px; 
 }
