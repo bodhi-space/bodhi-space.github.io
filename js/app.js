@@ -37,7 +37,7 @@ $(document).ready(function () {
         $('.largeNote').text('Not supported');
     }
     
-    var download = $('.downloadhs');
+var download = $('.downloadhs');
 
     /*
         DOWNLOAD BUTTON FUNCTIONALITY 
@@ -73,7 +73,7 @@ $(document).ready(function () {
         download.prop('disabled', true);
         download.css('opacity', '0.5');
         $('.largeNote').text('Not supported');
-    }
+    }    
 
     download.click(function () {
         location.href = downloadUrl;
