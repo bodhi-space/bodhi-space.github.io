@@ -107,10 +107,11 @@ header {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	float: left;
-	width: 150px;
-	height: 56px;
-	background: url(../img/logo.png) no-repeat center;
+	width: 375px;
+	height: 50px;
+	background: url(../img/HS_Platform_Logo_750x100px.png) no-repeat center;
 	display: block;
+	background-size: 100%;
 
 }
 
@@ -279,17 +280,20 @@ section.hero h1 {
 	clear: both;
 	margin: 20px 0 0 0;
 	color: #ffffff;
-	font-size: 60px;
+	font-size: 55px;
 	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: .75px;
 }
 section.hero h3 {
 	width: 100%;
 	clear: both;
 	margin: 10px 0;
 	color: #ffffff;
-	font-size: 36px;
+	font-size: 32px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
 	text-align: center;
@@ -398,7 +402,7 @@ section.one h2{
 			font-family: "Oswald", sans-serif;
 			font-weight: 400;
 			text-transform:uppercase;
-			letter-spacing: .75px;
+			letter-spacing: .25px;
 		}
 
 section.one h1{
@@ -493,6 +497,7 @@ section.platform p.large {
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: .75px;
+	font-weight: 400;
 
 }
 
@@ -549,6 +554,7 @@ section.mobile p.large {
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: .75px;
+	font-weight: 400;
 }
 
 section.mobile img.icon {
@@ -604,6 +610,7 @@ section.agent p.large {
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: .75px;
+	font-weight: 400;
 }
 section.agent img.icon {
 	display: block;
@@ -664,6 +671,7 @@ section.four p.large {
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: .75px;
+	font-weight: 400;
 }
 section.four a {
 	display: block;
