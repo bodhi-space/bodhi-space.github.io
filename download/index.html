@@ -1,55 +1,42 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/styles-download.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300,100">
-    
-    <script type="text/javascript">
-        function isIE() {
-            var myNav = navigator.userAgent.toLowerCase();
-            return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
-        }
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,300,100">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,300,100">
 
-        if (isIE() && isIE() < 10) {
-            window.location.href = "wrongversion.html";
-            alert("The version of the browser you are using is no longer supported. Please update your browser and try again.");
-        }
-    </script>
-
-    <!--[if (gte IE 9) | (!IE)]><!-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
     <script src="../js/bootstrap.js" type="js/javascript"></script>
     <script type="text/javascript" src="../js/app.js"></script>
-    <!--<![endif]-->
 </head>
-
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-bodhi navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="https://bodhi-space.github.io">
+                <a class="navbar-brand" href="https://redbookconnect.github.io">
                     <img alt="Logo" src="../assets/bodhi-developers-light.png">
                 </a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="https://bodhi-space.github.io">Home</a>
+                        <a href="https://redbookconnect.github.io">Home</a>
                     </li>
                     <li>
-                        <a href="https://bodhi-space.github.io/download">Agent Installer</a>
+                        <a href="https://redbookconnect.github.io/download">Agent Installer</a>
                     </li>
                     <li>
                         <a href="https://api.bodhi.space/apidocs/index.html">CloudAPI Docs</a>
                     </li>
                     <li>
-                        <a href="http://docs.bodhi.space" target="_blank">Library</a>
+                        <a href="http://redbookconnect.github.io/slate">Library</a>
                     </li>
                 </ul>
             </div>
@@ -58,77 +45,101 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- End Navigation -->
-    <div class="container">
-        <div class='row'>
-            <div class="content first">
-                <div class="content_header">
-                    <p>Get real-time insight into your
-                        <br> store with real-time data.</p>
-                </div>
-                <img class="iphone" src="../assets/iphone.png">
-                <div class="install">
-                    <div class="note">
-                        Download and install the Bodhi Agent on your POS.
-                        <br> Then install Bodhi Mobile on your mobile device.
-                    </div>
-                    <button class="download">
-                        <img src="../assets/icon_gear.png">
-                        <div class="largeNote">
-                            Download Agent
-                            <div class="smallNote"></div>
-                        </div>
-                    </button>
-                </div>
+
+<div class="container">
+    <div class="head-hotschedules row">
+        <img style="padding-left: 20px;" alt="Logo" src="../assets/icon-hsc.png" height="40px">
+        <span class="pull-right phone">Call 877-741-9610 - get support</span>
+    </div>
+    <div class='row'>
+        <div class="content first green">
+            <div class="content_header">
+                <p>GET REAL-TIME INSIGHT INTO YOUR <br> STORE WITH REAL-TIME DATA</p>
             </div>
-        </div>
-        <div class='row'>
-            <div class="content after">
-                <div class="content_header">
-                    Thanks for downloading the Bodhi Agent!
+
+            <img class="iphone" src="../assets/iphone.png">
+
+            <div class="install">
+                <div class="note">
+                    Download and install the HotShedules Agent on your POS.
                 </div>
-                <div class="install">
-                    <div class="note">
-                        Make sure to download and install Bodhi Mobile on your device.
+
+                <div class="note-medium">
+                    </br>
+                    1. Download the HotSchedules Agent
+                    </br>
+                    2. On your POS system, run the install wizard until you see the activation code
+                    </br>
+                    3. Enter the activation codes in the Store Display screen. That's it!
+                </div>
+
+                <button class="download">
+                    <img src="../assets/icon_gear.png">
+
+                    <div class="largeNote">
+                        Download Agent
+                        <div class="smallNote"></div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="options row">
-            <div class="other"><span class="opts">Other Download Options <strong> NOTE: You Must Have A Valid Account To Install The Agent </strong> </span></div>
-            <table class="options_list">
-                <tr>
-                    <td>Windows x64</td>
-                    <td>64 bit</td>
-                    <td class="last">
-                        <img src="../assets/icon_download.png" class="arrow">
-                        <a class="link" href="http://rbcplatform.artifactoryonline.com/rbcplatform/simple/hotlinik-release/BodhiAgentSetup-x64.exe">installer_version64_windows.exe</a>
-                    </td>
-                </tr>
-                <div class="tableRule"></div>
-                <tr class="lastRow">
-                    <td>Windows x86</td>
-                    <td>32 bit</td>
-                    <td class="last">
-                        <img src="../assets/icon_download.png" class="arrow">
-                        <a class="link" href="http://rbcplatform.artifactoryonline.com/rbcplatform/simple/hotlinik-release/BodhiAgentSetup-x86.exe">installer_version86_windows.exe</a>
-                    </td>
-                </tr>
-            </table>
-            <div class="stores">
-                <a href='https://itunes.apple.com/us/app/bodhi-mobile/id967184526?mt=8'><img src="../assets/btn_itunes.png"></a>
-                <a href="https://market.android.com/details?id=com.bodhi.mobile.android"><img src="../assets/btn_play.png"></a>
-                <a href="http://www.windowsphone.com/en-us/store/app/bodhi-mobile/aed07efa-99ad-482d-95a9-90b37fe96722"><img src="../assets/btn_windows.png"></a>
-                <br/>
-                <br/>
-                <br/>
+                </button>
             </div>
         </div>
     </div>
+    <div class='row'>
+        <div class="content after">
+            <div class="content_header right-margin-0">
+                THANKS FOR DOWNLOADING THE HOTSCHEDULES AGENT
+            </div>
+
+
+            <div class="install">
+     <!-- End Navigation             <div class="right-margin-0 note">
+                 Make sure to download and install HotSchedules Mobile on your device 
+                </div>
+    --> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="options row">
+        <div class="other"><span class="opts">Other Download Options</span></div>
+
+        <table class="options_list">
+            <tr>
+                <td>Windows x64</td>
+                <td>64 bit</td>
+                <td class="last">
+                    <img src="../assets/icon_download.png" class="arrow">
+                    <a class="link" href="http://rbcplatform.artifactoryonline.com/rbcplatform/simple/hotlinik-release/BodhiAgentSetup-x64.exe">installer_version64_windows.exe</a>
+                </td>
+            </tr>
+            <div class="tableRule"></div>
+            <tr class="lastRow">
+                <td>Windows x86</td>
+                <td>32 bit</td>
+                <td class="last">
+                    <img src="../assets/icon_download.png" class="arrow">
+                    <a class="link" href="http://rbcplatform.artifactoryonline.com/rbcplatform/simple/hotlinik-release/BodhiAgentSetup-x86.exe">installer_version86_windows.exe</a>
+                </td>
+            </tr>
+        </table>
+
+  <!-- /.navbar-collapse       <div class="stores">
+            <a href='https://itunes.apple.com/us/app/bodhi-mobile/id967184526?mt=8'><img src="../assets/btn_itunes.png"></a>
+            <a href="https://market.android.com/details?id=com.bodhi.mobile.android"><img src="../assets/btn_play.png"></a>
+            <a href="http://www.windowsphone.com/en-us/store/app/rbc-one/8d75fe28-0b92-427d-b6d8-ac238b23ce43"><img src="../assets/btn_windows.png"></a>
+            <br/><br/><br/>
+        </div>
+--> 
+    </div>
+
+
+</div>
     <div id="footer">
         <div class="footer">
             <span>Copyright &#169 2015 HotSchedules</span>
         </div>
     </div>
-</body>
 
+</body>
 </html>
