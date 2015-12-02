@@ -18,7 +18,7 @@ body {
 
 .navbar-bodhi {
 	height: 55px;
-	background-color: #FAA21D;
+	background-color: #99cc00;
 }
 
 .navbar-hs {
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-bodhi .nav>li>a:focus, .navbar-bodhi .nav>li>a:hover {
-    background-color: #FAA21D;
+    background-color: #99cc00;
 }
 
 .footer {
