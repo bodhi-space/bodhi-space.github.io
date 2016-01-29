@@ -125,13 +125,19 @@ html, body {
 	}
 
 	.content .download {
-		height: 100px;
+		height: auto;
 		width: 295px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		border-radius: 10px;
+		padding: 20px 0px;
+		margin: 10px auto;
 		background-color: white;
 		margin-right: 280px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+		border-radius: 4px;
+		font-weight: 400;
+		font-family: "Oswald", sans-serif;
+		font-size: 18px;
+		letter-spacing: 1px;
+		text-decoration: none;
 	}
 
 	.content .install img {
@@ -143,19 +149,34 @@ html, body {
 		text-align: center;
 	}
 
+	.content .install a {
+		color: #FFFFFF;
+	}
+
+	.content .install a:hover {
+		color: #f0f0f0;
+	}
+
 	.content .largeNote {
-		font-family: Raleway;
+		font-family: "Oswald", sans-serif;
+		letter-spacing: 1px;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-decoration: none;
 		font-size: 30px;
-		font-weight: 100;
 		color: #0099CC;
 		line-height: 34px;
 	}
 
 	.content .smallNote {
-		font-family: Raleway;
+		font-family: "Oswald", sans-serif;
 		font-size: 18px;
 		margin-right: 12px;
 		color: #FAA21D;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-weight: 400;
+		text-transform: uppercase;
 	}
 
 .after {
